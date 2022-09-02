@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(41, 41, 41);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: rgb(41, 41, 41);
+  height: 8vh;
+}
+
+.logo {
+  font-size: 3.5em;
+  text-shadow: 5px 5px 2px black;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+#mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+#mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+}
+
+#nav-list li {
+  margin-left: 32px;
+}
+
+.main-action {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.main-action:hover {
+  opacity: 0.7;
+  text-decoration: underline solid white 3px;
+  text-underline-position: under;
+}
+
+.button-login {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: 2px purple solid;
+}
+.button-login:hover {
+  border: 2px white solid;
+  opacity: 0.7;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+    
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.img img {
+  width: 31rem;
+}
+
+main .form {
+    
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .tittle {
+  font-size: 30px;
+  margin-right: 380px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+main .tittle span {
+  color: purple;
+}
+
+main .text p {
+  width: 600px;
+  color: white;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-right: 120px;
+  font-size: 18px;
+}
+
+main .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 350px;
+}
+
+main input {
+  height: 50px;
+  width: 350px;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 3px purple solid;
+  font-size: 16px;
+}
+main input:hover {
+  border: 3px rgb(145, 145, 145) solid;
+}
+main input::placeholder {
+  font-weight: bold;
+}
+
+main .button {
+  margin-right: 28em;
+  margin-top: 1em;
+
+  color: white;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-decoration: none;
+
+  padding: 0.8em 3em;
+  border-radius: 15px;
+  border: 2px purple solid;
+}
+main .button:hover {
+  border: 2px white solid;
+  color: rgb(145, 145, 145);
+}
+
